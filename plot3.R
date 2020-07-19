@@ -15,6 +15,6 @@ lines(Sub_metering_3, col = "blue")
 #Add days axis and legend
 axis(side = 1, at = c(0, 1440, 2880), labels = c("Thu", "Fri", "Sat"))
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-       col = c("black", "red", "blue"), lty = 1, cex = 0.6)
+       col = c("black", "red", "blue"), lty = 1)
 
 dev.off()
