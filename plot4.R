@@ -1,9 +1,9 @@
 #set up 2 rows and 2 columns
-par(mfcol = c(2, 2))
 
 #Want to plot plot2, plot3, and 2 others
 png(filename = "plot4.png")
 
+par(mfcol = c(2, 2))
 ##plot2 code
 timeaxis <- electricity$Time
 global_active_power <- as.numeric(electricity$Global_active_power)
